@@ -82,19 +82,19 @@ Lambda 表达式使用 [lambda 声明运算符](language-reference/operators/lam
 
 有关如何创建和使用异步方法的详细信息，请参阅[使用 Async 和 Await 的异步编程](programming-guide/concepts/async/index.md)。
 
-## <a name="lambda-expressions-and-tuples"></a>Lambda 表达式和元祖 ##
+## <a name="lambda-expressions-and-tuples"></a>Lambda 表达式和元组 ##
 
-从 C# 7.0 开始，C# 语言为元祖提供内置支持。 可以提供一个元祖作为 Lambda 表达式的参数，同时 Lambda 表达式也可以返回元祖。 在某些情况下，C# 编译器使用类型推理来确定元组组件的类型。 
+从 C# 7.0 开始，C# 语言为元组提供内置支持。 可以提供一个元组作为 Lambda 表达式的参数，同时 Lambda 表达式也可以返回元组。 在某些情况下，C# 编译器使用类型推理来确定元组组件的类型。 
 
-可通过用括号括住用逗号分隔的组件列表来定义元祖。 以下示例使用包含 5 个组件的元祖将一系列数字传递给 Lambda 表达式，此 Lambda 表达式将每个值加倍，然后返回包含乘法运算结果的 5 个组件的元祖。
+可通过用括号括住用逗号分隔的组件列表来定义元组。 以下示例使用包含 5 个组件的元组将一系列数字传递给 Lambda 表达式，此 Lambda 表达式将每个值加倍，然后返回包含乘法运算结果的 5 个组件的元组。
 
 [!code-csharp[csSnippets.Lambdas](../../samples/snippets/csharp/concepts/lambda-expressions/tuples1.cs#1)]
 
-通常，元组字段命名为 `Item1`、`Item2` 等等。但是，可以使用命名组件定义元祖，如以下示例所示。
+通常，元组字段命名为 `Item1`、`Item2` 等等。但是，可以使用命名组件定义元组，如以下示例所示。
 
 [!code-csharp[csSnippets.Lambdas](../../samples/snippets/csharp/concepts/lambda-expressions/tuples2.cs#1)]
 
-有关对 C# 中元祖的支持的详细信息，请参阅 [C# 元祖类型](tuples.md)。
+有关对 C# 中元组的支持的详细信息，请参阅 [C# 元组类型](tuples.md)。
 
 ## <a name="lambdas-with-the-standard-query-operators"></a>含标准查询运算符的 lambda ##
 
